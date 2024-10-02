@@ -1,6 +1,6 @@
 import app from "./src/app"
 import "reflect-metadata"
-import { AppDataSource } from "../api/src/db"
+import { AppDataSource } from "./src/db"
 
 
 AppDataSource.initialize().then(async () => { //! Sincronizamos la carga de la base de datos primero y luego corremos el servidor
