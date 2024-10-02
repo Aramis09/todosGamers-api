@@ -2,6 +2,9 @@
 
 ## 🚀 Steps to Run This Project
 
+### Video explicativo mostrando el proyecto:
+https://www.youtube.com/watch?v=08_FGmHdYDE
+
 1. **Install Dependencies:**
    First, install the required dependencies by running:
    ```bash
