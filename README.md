@@ -45,4 +45,9 @@ Aqui se debe dar click en el boton "Foward a Port" y no olvidarse de PONER PUBLI
 ![image](https://github.com/user-attachments/assets/1473cc31-05da-4c7c-be8f-5a686dc7cd64)
 ![image](https://github.com/user-attachments/assets/adb63f21-ef90-43db-bd38-a04c34511ba7)
 
+7. De esta forma podra desplegar de forma rapida el cliente y la api. Para poder tener un correcto funcionamiento se tendra que cambiar estas dos credenciales en el archivo .env:
+CLIENT_DOMAIN = http://localhost:5173 --> https://visualStudioDomainClient.brs.devtunnels.ms
+API_DOMAIN = http://localhost:3001  ---> https://visualStudioDomainApi.brs.devtunnels.ms
+
+
 
