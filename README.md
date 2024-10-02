@@ -2,17 +2,15 @@
 
 Steps to run this project:
 
-1. PRIMERO TENEMOS QUE INSTALAR LAS DEPENDENCIAS CON  `npm i`
+1. Primero tenemos que instalar las dependencias con  `npm i`
 
-2. LUEGO TENEMOS QUE VER EL ARCHIVO ".env.example" Y CREAR UNO NUEVO LLAMADO ".env". UNA VEZ CREADO COPIAR TODO LO DEL PRIMER ARCHIVO EN EL SEGUNDO Y COMPLETAR LOS DATOS CORRESPONDIENTES:
+2. Luego tenemos que ver el archivo .env.example y crear uno nuevo llamado .env. una vez creado copiar todo lo del primer archivo en el segundo y completar los datos correspondientes:
 
 * PORT_APP = 3001 ---> ESTE ES EL PUERTO DONDE SE CORRE LA API. NO ES NECESARIO CAMBIARLO
 
 * CLIENT_DOMAIN = http://localhost:5173 --> ESTE ES EL DOMINIO DEL CLIENTE, ESTO ES PARA LA CONFIGURACION DE CORS
 
 * API_DOMAIN = http://localhost:3001  ---> ESTE ES EL DOMINIO DE LA MISMA API, ES NECESARIA PARA CUESTIONES INTERNAS.
-
-YOU CAN USE THE SAME VALUES
 
 * TOKEN_SECRET = 40240919a71b422cd2bc0d638382b0e1accd89f06bc2977a426d30e7aa3b7416 --> ESTA  KEY ES PARA JWT Y NO ES NECESARIO CANBIARLA PORQUE ES DE PRUEBA
 
@@ -29,8 +27,6 @@ YOU CAN USE THE SAME VALUES
 * PASSWORD= ***
 
 * DATA_BASE= "todosgamers"
-
-////////////////////////////////////////////////////////////////////////
 
 3. Para correr el proyecto se usar npm run dev, este comando compila el typeScript en la carpet /build y luego corre la api. 
 
