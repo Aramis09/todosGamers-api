@@ -9,7 +9,7 @@ Steps to run this project:
 
  ////////////////////////////////////////////////////////////////////////
 
-PORT 
+* PORT 
 
 PORT_APP = 3001 ---> ESTE ES EL PUERTO DONDE SE CORRE LA API. NO ES NECESARIO CAMBIARLO
 
